@@ -1,7 +1,8 @@
 .promo {
   background: var(--Explorer-Orange-Explorer-Orange-80, #FB6B45);
   padding: 140px 0 45px;
-  height: 780px;
+  min-height: 780px;
+  height: 100vh;
   &-container {
     height: 100%;
 
