@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: "Pragmatica Next VF";
+  src: local("Pragmatica Next VF"),
+  url('../fonts/pragmatica-next_vf.woff2') format("woff2");
+}
+
+:root {
+  --font-family: "Pragmatica Next VF", sans-serif;
+  --second-family: "Roboto", sans-serif;
+
+  --neutrals-black-100: #0b0b0b;
+  --neutrals-dark-gray-90: #252526;
+  --neutrals-gray-80: #3f4040;
+  --neutrals-gray-70: #595a5b;
+  --neutrals-medium-gray-60: #737475;
+  --neutrals-gray-50: #8d8f90;
+  --neutrals-light-gray-40: #a7a9aa;
+  --neutrals-gray-30: #c1c3c5;
+  --neutrals-gray-20: #dbdedf;
+  --neutrals-pale-gray-10: #f5f8fa;
+  --neutrals-white: #fff;
+  --explorer-orange-explorer-orange-100: #fa4616;
+  --explorer-orange-explorer-orange-90: #fb6239;
+  --explorer-orange-explorer-orange-80: #fb6b45;
+  --explorer-orange-explorer-orange-70: #fb7e5c;
+  --explorer-orange-explorer-orange-60: #fc9073;
+  --explorer-orange-explorer-orange-50: #fca38b;
+  --explorer-orange-explorer-orange-40: #fdb5a2;
+  --explorer-orange-explorer-orange-30: #fdc7b9;
+  --explorer-orange-explorer-orange-20: #fedad0;
+  --explorer-yellow-explorer-yellow-100: #ffc72c;
+  --explorer-yellow-explorer-yellow-90: #ffcd41;
+  --explorer-yellow-explorer-yellow-80: #ffd256;
+  --explorer-yellow-explorer-yellow-70: #ffd86b;
+  --explorer-yellow-explorer-yellow-60: #ffdd80;
+  --explorer-yellow-explorer-yellow-50: #ffe395;
+  --explorer-yellow-explorer-yellow-40: #ffe9ab;
+  --explorer-yellow-explorer-yellow-30: #ffeec0;
+  --explorer-yellow-explorer-yellow-20: #fff4d5;
+  --fluorescent-blue-fluorescent-blue-100: #2cccd3;
+  --fluorescent-blue-fluorescent-blue-90: #41d1d7;
+  --fluorescent-blue-fluorescent-blue-80: #56d6dc;
+  --fluorescent-blue-fluorescent-blue-70: #6bdbe0;
+  --fluorescent-blue-fluorescent-blue-60: #80e0e5;
+  --fluorescent-blue-fluorescent-blue-50: #95e5e9;
+  --fluorescent-blue-fluorescent-blue-40: #abebed;
+  --fluorescent-blue-fluorescent-blue-30: #c0f0f2;
+  --fluorescent-blue-fluorescent-blue-20: #d5f5f6;
+  --indigo-indigo-100: #00416a;
+  --indigo-indigo-90: #1a5479;
+  --indigo-indigo-80: #336788;
+  --indigo-indigo-70: #4d7a97;
+  --indigo-indigo-60: #668da6;
+  --indigo-indigo-50: #80a0b4;
+  --indigo-indigo-40: #99b3c3;
+  --indigo-indigo-30: #b3c6d2;
+  --indigo-indigo-20: #ccd9e1;
+  --explorer-red-explorer-red-100: #d6001c;
+  --explorer-red-explorer-red-90: #da1a33;
+  --explorer-red-explorer-red-80: #de3349;
+  --explorer-red-explorer-red-70: #e24d60;
+  --explorer-red-explorer-red-60: #e66677;
+  --explorer-red-explorer-red-50: #eb808d;
+  --explorer-red-explorer-red-40: #ef99a4;
+  --explorer-red-explorer-red-30: #f3b3bb;
+  --explorer-red-explorer-red-20: #f7ccd2;
+  --rhodamine-rhodamine-100: #c71585;
+  --rhodamine-rhodamine-90: #cd2c91;
+  --rhodamine-rhodamine-80: #d2449d;
+  --rhodamine-rhodamine-70: #d85baa;
+  --rhodamine-rhodamine-60: #dd73b6;
+  --rhodamine-rhodamine-50: #e38ac2;
+  --rhodamine-rhodamine-40: #e9a1ce;
+  --rhodamine-rhodamine-30: #eeb9da;
+  --rhodamine-rhodamine-20: #f4d0e7;
+  --product-signal-yellow: #ff0;
+  --product-defence-blue: #1e90ff;
+  --product-deep-purple: #6e1978;
+  --product-vivid-red: #7b001c;
+}
