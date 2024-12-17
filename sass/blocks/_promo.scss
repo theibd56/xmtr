@@ -1,0 +1,34 @@
+.promo {
+  background: var(--Explorer-Orange-Explorer-Orange-80, #FB6B45);
+  padding: 140px 0 45px;
+  height: 780px;
+  &-container {
+    height: 100%;
+
+  }
+  &-content {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &-title {
+    color: var(--Neutrals-Black-100, #0B0B0B);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 480;
+    line-height: normal;
+    letter-spacing: -0.88px;
+
+    max-width: 277px;
+  }
+  &-image {
+    margin: 0 auto;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}

@@ -1,5 +1,8 @@
 .header {
   padding: 44px 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
   &-content {
     display: flex;
     align-items: center;
