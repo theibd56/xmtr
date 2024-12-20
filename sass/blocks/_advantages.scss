@@ -27,7 +27,8 @@
     margin-bottom: 128px;
   }
   &-list {
-    padding-left: 224px;
+    margin-left: auto;
+    max-width: 1008px;
     display: grid;
     grid-template: auto / repeat(2, 1fr);
     column-gap: 112px;
