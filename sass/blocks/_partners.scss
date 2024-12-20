@@ -16,14 +16,15 @@
 
     border-radius: 80px;
     border: 1.5px solid var(--Neutrals-White, #FFF);
+    margin-bottom: 72px;
 
   }
   &-heading {
-    margin-top: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+    margin-bottom: 72px;
   }
   &-title {
     margin: 0;
@@ -67,7 +68,6 @@
     }
   }
   &-slider {
-    margin-top: 72px;
     &__item {
       &.swiper-slide {
         background: var(--Neutrals-Gray-80, #3F4040);
