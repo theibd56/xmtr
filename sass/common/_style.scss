@@ -67,6 +67,9 @@ body {
   &.explorer-yellow {
     background: var(--Explorer-Yellow-Explorer-Yellow-30, #FFEEC0);
   }
+  &.explorer-orange {
+    background: var(--Explorer-Orange-Explorer-Orange-50, #FCA38B);
+  }
   &.fluorescent-blue {
     background: var(--Fluorescent-Blue-Fluorescent-Blue-20, #D5F5F6);
   }
@@ -74,6 +77,9 @@ body {
 
 main {
   min-height: 100vh;
+  &.not-banner {
+    padding: 140px 240px;
+  }
 }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
