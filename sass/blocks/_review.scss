@@ -1,8 +1,7 @@
 .review {
   padding: 128px 0 98px;
   background: var(--neutrals-pale-gray-10, #F5F8FA);
-  &-heading {
-    &__title {
+  &-subtitle {
       color: var(--Neutrals-Black-100, #0B0B0B);
       font-size: 18px;
       font-style: normal;
@@ -17,7 +16,6 @@
 
       border-radius: 80px;
       border: 1.5px solid var(--Neutrals-Black-100, #0B0B0B);
-    }
   }
   &-slider {
     width: 100%;

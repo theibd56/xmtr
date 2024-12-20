@@ -14,3 +14,10 @@ const reviewSlider = new Swiper('.review-slider .swiper', {
         nextEl: '.review-navigation__next',
     },
 });
+
+const partnersSlider = new Swiper('.partners-slider', {
+    speed: 800,
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 2,
+});
