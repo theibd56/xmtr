@@ -7,6 +7,12 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
+                services: resolve(__dirname, '/pages/services.html'),
+                jobs: resolve(__dirname, '/pages/jobs.html'),
+                materials: resolve(__dirname, '/pages/materials.html'),
+                industries: resolve(__dirname, '/pages/industries.html'),
+
+
             },
         },
     },
