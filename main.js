@@ -61,3 +61,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+document.getElementById('js-to-top').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // плавная прокрутка
+    });
+});
