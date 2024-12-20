@@ -64,6 +64,16 @@ body {
   background: #fff;
   font-family: var(--font-family);
   cursor: default;
+  &.explorer-yellow {
+    background: var(--Explorer-Yellow-Explorer-Yellow-30, #FFEEC0);
+  }
+  &.fluorescent-blue {
+    background: var(--Fluorescent-Blue-Fluorescent-Blue-20, #D5F5F6);
+  }
+}
+
+main {
+  min-height: 100vh;
 }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
