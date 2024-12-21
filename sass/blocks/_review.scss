@@ -19,7 +19,8 @@
   }
   &-slider {
     width: 100%;
-    padding: 72px 0 0 349px;
+    max-width: 900px;
+    margin: 72px 0 0 auto;
     .swiper-wrapper {
       align-items: stretch;
     }

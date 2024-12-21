@@ -1,0 +1,5 @@
+@media screen and (max-width:1200px) {
+  .industries-table {
+    grid-template: minmax(240px, auto) / repeat(3, 1fr);
+  }
+}
