@@ -13,6 +13,8 @@ export default defineConfig({
                 industries: resolve(__dirname, '/pages/industries.html'),
                 rocblok: resolve(__dirname, '/pages/rocblok.html'),
                 supercell: resolve(__dirname, '/pages/supercell.html'),
+                moldgum: resolve(__dirname, '/pages/moldgum.html'),
+                keenx: resolve(__dirname, '/pages/keenx.html'),
             },
         },
     },
