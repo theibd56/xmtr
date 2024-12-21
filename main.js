@@ -76,3 +76,19 @@ document.getElementById('js-to-top').addEventListener('click', function() {
         behavior: 'smooth' // плавная прокрутка
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const headerBurger = document.getElementById("js-header-burger");
+    const burgerMenu = document.getElementById("js-burger-menu");
+    const burgerClose = document.getElementById("js-burger-close");
+
+    headerBurger.addEventListener("click", () => {
+        burgerMenu.classList.toggle("active");
+        document.documentElement.classList.toggle("lock");
+    });
+
+    burgerClose.addEventListener("click", () => {
+        burgerMenu.classList.remove("active");
+        document.documentElement.classList.remove("lock");
+    });
+});
