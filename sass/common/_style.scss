@@ -73,9 +73,28 @@ body {
   &.fluorescent-blue {
     background: var(--Fluorescent-Blue-Fluorescent-Blue-20, #D5F5F6);
   }
+  &.indigo {
+    .promo {
+      background: var(--Indigo-Indigo-90, #1A5479);
+    }
+  }
+  &.white {
+    header {
+      .header-logo path {
+        fill: var(--Neutrals-White, #FFF);
+      }
+      .header-menu ul a, .header-lang {
+        color: var(--Neutrals-White, #FFF);
+      }
+    }
+    .promo-title {
+      color: var(--Neutrals-White, #FFF);
+    }
+  }
 }
 
 main {
+  overflow: hidden;
   min-height: 100vh;
   &.not-banner {
     padding: 140px 240px;
@@ -104,10 +123,6 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-main {
-  overflow: hidden;
 }
 
 .container {

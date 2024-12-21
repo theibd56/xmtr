@@ -11,8 +11,7 @@ export default defineConfig({
                 jobs: resolve(__dirname, '/pages/jobs.html'),
                 materials: resolve(__dirname, '/pages/materials.html'),
                 industries: resolve(__dirname, '/pages/industries.html'),
-
-
+                rocblok: resolve(__dirname, '/pages/rocblok.html'),
             },
         },
     },
