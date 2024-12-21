@@ -73,9 +73,19 @@ body {
   &.fluorescent-blue {
     background: var(--Fluorescent-Blue-Fluorescent-Blue-20, #D5F5F6);
   }
-  &.indigo {
+  &.indigo-promo {
     .promo {
       background: var(--Indigo-Indigo-90, #1A5479);
+    }
+  }
+  &.yellow-promo {
+    .promo {
+      background: #FF0;
+    }
+  }
+  &.rhodamine-promo {
+    .promo {
+      background: var(--Rhodamine-Rhodamine-90, #CD2C91);
     }
   }
   &.white {

@@ -2,10 +2,10 @@
   background: var(--Explorer-Orange-Explorer-Orange-80, #FB6B45);
   padding: 140px 0 45px;
   min-height: 780px;
-  height: 100vh;
+  height: 780px;
+  //height: 100vh;
   &-container {
     height: 100%;
-
   }
   &-content {
     height: 100%;
@@ -30,6 +30,17 @@
       width: 100%;
       height: 100%;
       object-fit: contain;
+    }
+  }
+  &.promo-abs {
+    .container {
+      position: relative;
+    }
+    .promo-image {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
     }
   }
 }
