@@ -6,9 +6,19 @@
 }
 
 @media screen and (max-width:768px) {
-  .promo-container {
-    padding: 140px 15px 45px;
-    height: 100%;
+  .promo {
+    &-container {
+      padding: 140px 15px 45px;
+      height: 100%;
+    }
+    &.promo-abs {
+      .promo-image {
+        max-width: 500px;
+        max-height: 400px;
+        transform: none;
+        position: static;
+      }
+    }
   }
 }
 
@@ -19,6 +29,14 @@
     &-container {
       padding: 110px 15px 45px;
       height: 100%;
+    }
+    &.promo-abs {
+      .promo-image {
+        max-width: 300px;
+        max-height: 300px;
+        transform: none;
+        position: static;
+      }
     }
   }
 }
