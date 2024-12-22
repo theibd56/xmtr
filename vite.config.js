@@ -15,6 +15,7 @@ export default defineConfig({
                 supercell: resolve(__dirname, '/pages/supercell.html'),
                 moldgum: resolve(__dirname, '/pages/moldgum.html'),
                 keenx: resolve(__dirname, '/pages/keenx.html'),
+                about: resolve(__dirname, '/pages/about.html'),
             },
         },
     },
