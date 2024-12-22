@@ -96,6 +96,11 @@ body {
       .header-menu ul a, .header-lang {
         color: var(--Neutrals-White, #FFF);
       }
+      .header-burger {
+        path {
+          fill: var(--Neutrals-White, #FFF);
+        }
+      }
     }
     .promo-title {
       color: var(--Neutrals-White, #FFF);
