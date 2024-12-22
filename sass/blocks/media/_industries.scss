@@ -3,3 +3,42 @@
     grid-template: minmax(240px, auto) / repeat(3, 1fr);
   }
 }
+
+@media screen and (max-width:992px)  {
+  .industries {
+    padding: 80px 0;
+    &-title {
+      margin-bottom: 50px;
+    }
+    &-table {
+      grid-template: minmax(240px, auto) / repeat(2, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width:768px)  {
+  .industries {
+    &-card {
+      &__title {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:576px)  {
+  .industries {
+    padding: 50px 0;
+    &-title {
+      margin-bottom: 30px;
+    }
+    &-card {
+      &__title {
+        font-size: 22px;
+      }
+    }
+    &-table {
+      grid-template: minmax(240px, auto) / 1fr;
+    }
+  }
+}

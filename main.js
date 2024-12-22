@@ -20,8 +20,14 @@ const partnersSlider = new Swiper('.partners-slider', {
     loop: true,
     slidesPerView: 3,
     spaceBetween: 2,
+    autoplay: {
+        delay: 6000,
+    },
     breakpoints: {
-        576: {
+        320: {
+            slidesPerView: 1.2,
+        },
+        768: {
             slidesPerView: 2.5,
         },
         992: {

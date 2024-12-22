@@ -22,12 +22,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
     margin-bottom: 72px;
   }
   &-title {
     margin: 0;
     max-width: 450px;
+    min-width: 370px;
   }
   &-feedback {
     &__title {

@@ -1,6 +1,6 @@
 .materials {
   padding: 128px 0;
-  min-height: 100vh;
+  //min-height: 100vh;
   &-title {
     color: var(--Neutrals-Black-100, #0B0B0B);
     margin-bottom: 72px;
@@ -23,7 +23,7 @@
       font-size: 28px;
       font-style: normal;
       font-weight: 480;
-      line-height: 44px; /* 157.143% */
+      line-height: 130%; /* 157.143% */
       letter-spacing: -0.28px;
     }
     &__descr {

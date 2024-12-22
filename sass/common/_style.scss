@@ -224,27 +224,22 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1200px) {
   h1 {
     font-size: 96px;
-    line-height: 1;
   }
 
   h2 {
     font-size: 96px;
-    line-height: 1;
   }
 
   h3 {
     font-size: 88px;
-    line-height: 1.1;
   }
 
   h4 {
     font-size: 64px;
-    line-height: 1.2;
   }
 
   h5 {
     font-size: 36px;
-    line-height: 1.3;
   }
 }
 
@@ -333,5 +328,12 @@ h1, h2, h3, h4, h5, h6 {
   h5 {
     font-size: 24px;
     line-height: 1.1;
+  }
+
+
+  p {
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.33333;
   }
 }

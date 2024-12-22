@@ -1,0 +1,40 @@
+@media screen and (max-width:992px) {
+  .review {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .review-item__name {
+    font-size: 22px;
+  }
+  .review-item__company {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .review {
+    padding: 50px 0;
+    &-slider {
+      margin: 50px 0 0
+    }
+    &-item {
+      &.swiper-slide {
+        gap: 30px;
+      }
+      &__info {
+        gap: 0;
+      }
+    }
+    &-navigation {
+      div {
+        width: 40px;
+        height: 40px;
+        svg {
+          transform: scale(0.7);
+        }
+      }
+    }
+  }
+}

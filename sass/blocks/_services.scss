@@ -3,6 +3,7 @@
   &-title {
     color: var(--Neutrals-Black-100, #0B0B0B);
     margin-bottom: 72px;
+    max-width: 1000px;
   }
   &-list {
     margin-left: auto;
@@ -22,7 +23,7 @@
       font-size: 28px;
       font-style: normal;
       font-weight: 480;
-      line-height: 44px; /* 157.143% */
+      line-height: 130%; /* 157.143% */
       letter-spacing: -0.28px;
     }
     &__descr {

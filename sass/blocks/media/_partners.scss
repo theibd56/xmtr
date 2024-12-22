@@ -1,0 +1,23 @@
+@media screen and (max-width:992px) {
+  .partners {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .partners {
+    padding: 50px 0;
+    &-title {
+      max-width: 100%;
+      min-width: auto;
+    }
+    &-subtitle {
+      margin-bottom: 50px;
+    }
+    &-feedback {
+      &__link {
+        width: 100%;
+      }
+    }
+  }
+}

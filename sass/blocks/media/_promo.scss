@@ -1,0 +1,24 @@
+@media screen and (max-width:992px) {
+  .promo {
+    min-height: 650px;
+    height: 650px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .promo-container {
+    padding: 140px 15px 45px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .promo {
+    min-height: 500px;
+    height: 500px;
+    &-container {
+      padding: 110px 15px 45px;
+      height: 100%;
+    }
+  }
+}
