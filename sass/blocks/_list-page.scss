@@ -9,6 +9,7 @@
     justify-content: center;
     &_title {
       margin-bottom: 72px;
+      hyphens: auto;
     }
     &_content {
       display: flex;
@@ -23,6 +24,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    &_wrapper {
+      display: flex;
+      gap: 120px;
     }
     &_text {
       max-width: 448px;
