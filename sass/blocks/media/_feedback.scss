@@ -1,0 +1,35 @@
+@media screen and (max-width:576px) {
+  .feedback.fancybox__content {
+    .f-button.is-close-btn {
+      --f-button-color: #0B0B0B !important;
+      --f-button-bg: none !important;
+    }
+  }
+}
+
+@media screen and (max-width:425px) {
+  .feedback {
+    &.fancybox__content {
+      padding: 30px 35px;
+    }
+    &__form {
+      &_title {
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+      &_item {
+        margin-bottom: 10px;
+        input {
+          font-size: 14px;
+          padding: 12px 5px;
+        }
+      }
+      &_button {
+        height: 42px;
+      }
+      &_policy {
+        font-size: 14px;
+      }
+    }
+  }
+}

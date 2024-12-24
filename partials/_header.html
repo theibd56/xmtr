@@ -22,12 +22,12 @@
                             <a href="#">Проекты</a>
                         </li>
                         <li>
-                            <a href="#">Контакты</a>
+                            <a href="#contacts">Контакты</a>
                         </li>
                     </ul>
                 </nav>
-                <a href="#" class="header-lang">
-                    EN
+                <a data-fancybox href="#feedback" class="header-feedback">
+                    Узнать подробнее
                 </a>
             </div>
             <div class="header-burger" id="js-header-burger">
@@ -69,13 +69,34 @@
                         <a href="#">Проекты</a>
                     </li>
                     <li>
-                        <a href="#">Контакты</a>
+                        <a href="#contacts">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <a href="#" class="header-lang">
-                EN
+            <a data-fancybox href="#feedback"  class="header-feedback">
+                Узнать подробнее
             </a>
         </div>
     </div>
+</div>
+
+<div class="feedback" id="feedback" style="display: none">
+    <form class="feedback__form">
+        <div class="feedback__form_title">
+            Заполните данные
+        </div>
+        <div class="feedback__form_item">
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div class="feedback__form_item">
+            <input type="tel" name="phone" data-maska="+7 (###) ###-##-##" placeholder="Телефон">
+        </div>
+        <div class="feedback__form_item">
+            <input type="email" name="email" placeholder="Почта">
+        </div>
+        <button class="feedback__form_button">Оставить заявку</button>
+        <p class="feedback__form_policy">
+            Нажимая на кнопку вы даёте согласие на обработку данных
+        </p>
+    </form>
 </div>

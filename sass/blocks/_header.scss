@@ -17,6 +17,7 @@
   &-wrapper {
     display: flex;
     align-items: center;
+    gap: 30px;
   }
   &-menu {
     ul {
@@ -47,14 +48,22 @@
       }
     }
   }
-  &-lang {
-    color: var(--Neutrals-Black-100, #0B0B0B);
+  &-feedback {
+    color: #FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 480;
-    line-height: normal;
-    letter-spacing: 0.36px;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: 0.18px;
 
-    padding: 0px 12px;
+    padding: 10px 30px;
+
+    border-radius: 120px;
+    background: #0B0B0B;
+
+    transition: all .3s ease;
+    &:hover {
+      opacity: 0.7;
+    }
   }
 }
