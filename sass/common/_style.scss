@@ -108,6 +108,7 @@ body {
     }
     .promo-title {
       color: var(--Neutrals-White, #FFF);
+      max-width: 335px;
     }
   }
 }
@@ -147,7 +148,7 @@ select {
 .container {
   max-width: 1350px;
   margin: 0 auto;
-  //width: 100%;
+  width: 100%;
   padding: 0 45px;
 }
 
@@ -193,6 +194,9 @@ h4 {
   line-height: 1.11111;
   letter-spacing: -0.02em;
   color: #fff;
+  &.small {
+    max-width: 879px;
+  }
 }
 
 h5 {

@@ -1,0 +1,15 @@
+@media screen and (max-width: 992px) {
+  .banner {
+    padding: 50px 0;
+    min-height: 700px;
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner {
+    padding: 30px 0;
+    min-height: 500px;
+    height: 500px;
+  }
+}

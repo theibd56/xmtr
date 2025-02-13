@@ -1,7 +1,7 @@
 .promo {
   background: var(--Explorer-Orange-Explorer-Orange-80, #FB6B45);
-  min-height: 780px;
-  height: 780px;
+  min-height: 960px;
+  height: 960px;
   //height: 100vh;
   &-container {
     padding: 140px 45px 45px;
@@ -38,6 +38,26 @@
       top: 50%;
       transform: translateY(-50%);
       right: 45px;
+    }
+  }
+  &.promo-banner {
+    position: relative;
+    background: none;
+    .promo-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .promo-container {
+      position: relative;
+      z-index: 1;
     }
   }
 }
